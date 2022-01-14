@@ -113,7 +113,8 @@ def main(argv):
         print("INFO: {} items inserted successfully".format(argv[1]))
 
     except:
-        print("ERROR: Insertion failed")
+        db.rollback()
+        print("ERROR: Insertion failed, changes are rolled back")
 
     
 
