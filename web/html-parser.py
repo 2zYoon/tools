@@ -80,4 +80,3 @@ if __name__ == "__main__":
         print(i)
     
     a.get_headertree().apply(lambda x: print("-" * x.get_depth(), x.data))
-    
