@@ -5,7 +5,7 @@ while 1:
     a = input("> ")
     name = a[:a.find("(★")].strip()
     score = a.count("★")
-    comment = a[a.find("★)")+1:].strip()
+    comment = a[a.find("★)")+2:].strip()
  
     to_print = "/eat {} {} {} {} {} {}".format(
         sys.argv[1],
