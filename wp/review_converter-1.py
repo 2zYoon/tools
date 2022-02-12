@@ -1,3 +1,5 @@
+# clipboard version
+
 import sys
 import clipboard
 
