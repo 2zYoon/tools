@@ -3,7 +3,7 @@ import clipboard
 
 while 1:
     a = input("> ")
-    name = a[:a.find("(★")].strip()
+    name = a[:a.find("(★")].strip().replace(" ", ".")
     score = a.count("★")
     comment = a[a.find("★)")+2:].strip()
  
