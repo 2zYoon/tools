@@ -16,3 +16,5 @@
   - **green-grass**: 잔디밭 만들기
 - win
   - **memo**: 메모장 띄우기
+- algorithm
+  - **banker**: Banker's algorithm 시뮬레이터
