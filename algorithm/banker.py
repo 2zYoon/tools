@@ -87,13 +87,14 @@ def banker_find(dat):
                 break
 
             avail_ = list_arithmetic("add", avail_, max_[i])
-            print("avail2", avail_)
 
         if ok:
             l_feasible.append(seq)
     
     for i in l_feasible:
         print(i)
+    
+    print("Total {} sequences".format(len(l_feasible)))
 
     if len(l_feasible) == 0:
         print("This system is unsafe!")

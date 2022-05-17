@@ -11,7 +11,7 @@
 - db
   - **string_converter**: 특정 스트링 패턴 일괄적으로 변경 
 - linux
-  - **simple-monitor**: SSH 연결 테스트, CPU, memory usage 체크 (NA)
+  - **numa_disable**: NUMA 노드 내 CPU, 메모리 비활성화
 - git
   - **green-grass**: 잔디밭 만들기
 - win
