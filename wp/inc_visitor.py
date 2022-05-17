@@ -95,7 +95,8 @@ def main(argv):
     except mysql._exceptions.OperationalError:
         print("ERROR: DB connection failed")
         print("Try to check configuration or username/password")
-    
+        exit()
+        
     # use current timestamp to avoid record duplication
     now = str(datetime.datetime.now().timestamp())
 
